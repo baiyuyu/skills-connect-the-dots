@@ -1,0 +1,9 @@
+{
+	"name": "stacybai-rg",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3140f9b-f214-458f-a1be-bc0b490e4f83",
+		"tenantId": "cf36141c-ddd7-45a7-b073-111f66d0b30c"
+	}
+}
