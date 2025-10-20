@@ -67,8 +67,7 @@ jobs:
           dataFactoryName: stacybai-rg # (7) your target ADF name
           armTemplateFile: linkedTemplates/ArmTemplate_master.json # (8) ARM template file name ARMTemplateForFactory.json
           armTemplateParametersFile: linkedTemplates/ArmTemplateParameters_master.json # (9) ARM template parameters file name ARMTemplateParametersForFactory.json
-          additionalParameters: 'factoryName=jcg-src-uat-00-adf' # (10) Parameters which will be replaced in the ARM template. Expected format 'key1=value key2=value keyN=value'. At the minimum here you should provide the target ADF name parameter. Check the ARMTemplateParametersForFactory.json file for all the parameters that are expected in your scenario
-          
+          additionalParameters: 'factoryName=jcg-src-uat-00-adf'
           # skipAzModuleInstallation:  # Parameters which skip the Az module installation. Optional, default is false.      
     
       
